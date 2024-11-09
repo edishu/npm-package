@@ -1,0 +1,23 @@
+{
+  "name": "@edishu/npm-package-demo",
+  "version": "1.0.0",
+  "description": "A demo package for Total TypeScript",
+  "keywords": [
+    "demo",
+    "typescript"
+  ],
+  "homepage": "https://github.com/edishu/npm-package",
+  "bugs": {
+    "url": "https://github.com/edishu/npm-package/issues"
+  },
+  "author": "Udayan Maurya <edishumaurya@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edishu/npm-package.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "license": "MIT"
+}
