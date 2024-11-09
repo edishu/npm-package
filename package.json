@@ -28,11 +28,12 @@
     "typescript": "^5.6.3"
   },
   "scripts": {
+    "lint": "tsc",
     "build": "tsup",
     "format": "prettier --write .",
     "check-format": "prettier --check .",
     "check-exports": "attw --pack .",
-    "ci": "npm run build && npm run check-format && npm run check-exports"
+    "ci": "npm run build && npm run check-format && npm run check-exports && npm run lint"
   },
   "exports": {
     "./package.json": "./package.json",
